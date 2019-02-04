@@ -7,6 +7,14 @@ public class janken {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 
+//if((a==0)||(a>=4)) {
+//System.out.println("1~3で入力してください！");
+//}
+//if((b==0)||(b>=4)) {
+//System.out.println("1~3で入力してください！");
+//}			
+//「1~3以外の値」を入力された時の対処法が分かりませんでした・・・
+
 		if(a==1) {
 			System.out.println("Aさんはグーを出しました");
 		}else if(a==2) {
