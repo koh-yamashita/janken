@@ -15,27 +15,13 @@ public class janken {
 			System.out.println("Aさんはパーを出しました");
 		}
 
-		if(b==1) {
-			System.out.println("Bさんはグーを出しました");
-		}else if(b==2) {
-			System.out.println("Bさんはチョキを出しました");
-		}else if(b==3) {
-			System.out.println("Bさんはパーを出しました");
-		}
-
 		if(a==b) {
 			System.out.println("あいこです！");
-		}else if((a==1)&&(b==2)){
+		}else if((a==1)&&(b==2)||(a==2)&&(b==3)
+				||(a==3)&&(b==1)){
 			System.out.println("Aさんの勝ちです！");
-		}else if((a==1)&&(b==3)){
-			System.out.println("Bさんの勝ちです！");
-		}else if((a==2)&&(b==1)){
-			System.out.println("Bさんの勝ちです！");
-		}else if((a==2)&&(b==3)){
-			System.out.println("Aさんの勝ちです！");
-		}else if((a==3)&&(b==1)){
-			System.out.println("Aさんの勝ちです！");
-		}else if((a==3)&&(b==2)){
+		}else if((a==1)&&(b==3)||(a==2)&&(b==3)
+				||(a==3)&&(b==2)){
 			System.out.println("Bさんの勝ちです！");
 		}
 	}
