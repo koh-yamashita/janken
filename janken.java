@@ -15,6 +15,14 @@ public class janken {
 			System.out.println("Aさんはパーを出しました");
 		}
 
+		if(b==1) {
+			System.out.println("Bさんはグーを出しました");
+		}else if(b==2) {
+			System.out.println("Bさんはチョキを出しました");
+		}else if(b==3) {
+			System.out.println("Bさんはパーを出しました");
+		}
+
 		if(a==b) {
 			System.out.println("あいこです！");
 		}else if((a==1)&&(b==2)||(a==2)&&(b==3)
